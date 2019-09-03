@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0; 
+}
+
+header{
+	width:100%;
+	height:100vh;
+	font-family: cursive;
+	; 
+}
+
+.main{
+	display:flex;
+	flex-direction:row;
+	align-items: center; 
+}
+.image{
+	width:20%; 
+	text-align:center; 
+}
+.image img{
+	height:100px;
+}
+.list{
+	width:80%;
+	text-align:right;
+	padding:50px;  
+}
+.list li{
+	text-transform:uppercase;
+	letter-spacing:2px;
+	list-style: none;
+	display: inline-block;
+	padding-left: 30px
+	
+
+}
+.list li a{
+	 
+	color:red; 
+	text-decoration: none;
+	
+
+}
+.list li a:hover{
+	color: yellow;
+	background-color: blue;
+}
+audio{
+	display:none;
+}
+
