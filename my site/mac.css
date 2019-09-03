@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	/*border: 2px solid red;*/
+	background-image: url("HDPackSuperiorWallpapers220_120.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+}
+.main{
+	width:100%;
+	height:100px;
+	display: flex;
+	flex-direction: row;
+
+}
+.image{
+	width: 200px;
+	height: 200px;
+}
+.image img{
+	width: 200px;
+	height: 100px;
+	text-align:center;
+}
+
+.menu{
+	width:100%;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 30px;
+
+
+}
+
+.menu li{
+	display:inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px; 
+	list-style: none;
+}
+.menu li a{
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.menu hr{
+	
+	margin-left: 54%;
+
+}
+.main_header{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 40%;
+	left: 22%;
+	text-align: center;
+}
+
+.message h1{
+	text-transform: uppercase;
+	font-family: monotype corsiva;
+	font-size: 40px;
+	
+	color: aqua;
+	padding: 10px 10px;
+}
+.button button{
+	padding: 10px 55px;
+	background-color:lightgreen;
+
+
+}
+.button button:hover{
+	background-color: orange;
+	border: 4px solid red;
+
+}
+.button button:active{
+	background-color: aqua;
+	border: 4px solid deeppink;
+
+}
+.button button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: deeppink;
+}
+.comment{
+	padding:20px 10px;
+}
+.comment label{
+	font-size: 20px;
+	/*background-color: aqua;*/
+	padding: 10px 10px;
+}
+.comment input{
+	font-size: 50px;
+	width: 300px;
+	height: 60px;
+	background-color:orange;
+	color:aqua;
+
+}
+
+.send button{
+	padding: 10px 55px;
+	background-color: lightgreen;
+
+}
+.send button:hover{
+	background-color: orange;
+	border:5px solid deeppink;
+}
+.send button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:deeppink;
+}
